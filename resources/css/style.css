@@ -4,34 +4,50 @@ html {
   line-height: 1.4;
 }
 
-.container {
+.flex {
   display: flex;
-  justify-content: center;
+}
+
+
+header {
+  background-image: url("../glasses-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 30rem;
+  padding-top: 1rem;
+  }
+
+header img {
+  height: 1.5rem;
 }
 
 #logo {
   align-items: center;
 }
 
-header {
+.box {
   width: 960px;
-  margin: 1rem auto;
-  color: white;
-  padding: 1rem 2rem;
-  background-color: cadetblue;
+  margin: 0 auto;
+}
+
+nav {
   position: fixed;
-  z-index: 10;
-  display: inline-flex;
+  width: 960px;
+  padding: 1rem 2rem;
+  color: white;
+  background-color: cadetblue;
+  display: flex;
   align-items: center;
   justify-content: space-between;
-  }
+}
 
-header span {
-  margin-left: 1rem;
+ul {
+  margin-left: 2rem;
 }
 
 nav span {
-  margin-left: 2rem;
+  margin-left: 1rem;
 }
 
 a {
@@ -42,31 +58,22 @@ a {
 .mobile {
   display: none;
   }
-
-
-header img {
-  height: 1.5rem;
+#pos-slogan {
+  justify-content: flex-end;
 }
 
-span {
-
-}
-
-nav {
-
-}
-
-a {
-
-}
-
-
-.banner {
-
+#slogan {
+  margin-top: 10rem;
+  margin-right: -2rem;
+  padding: 1.5rem 5rem;
+  background-color: white;
 }
 
 h1 {
-
+  font-size: 2rem;
+  line-height: 1.2;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 h2 {
@@ -89,7 +96,7 @@ section {
 
   }
 
-  p {
+p {
 
   }
 
