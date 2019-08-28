@@ -129,7 +129,7 @@ section {
   margin-bottom: 1rem;
 }
 
-#products div {
+.product {
   max-width: 35%;
   margin-right: 5%;
 }
@@ -178,13 +178,68 @@ footer img {
   }
 
   #products h2 {
-    width: auto; 
+    width: auto;
   }
 }
 
 
 /* MOBILE ----------- */
+@media only screen and (max-width : 660px) {
 
-  @media only screen and (max-width : 320px) {
-  /* Styles */
-  }
+  .mobile {
+    display: inline;
+    }
+
+  .menu, #logo span {
+    display: none;
+    }
+
+    header {
+      background-size: cover;
+      height: 17rem;
+      padding-top: 0rem;
+      }
+
+    #slogan {
+      margin-top: 12rem;
+      margin-right: 0;
+      width: 100%;
+      padding: 1rem auto;
+    }
+
+    h1 {
+      font-size: 1rem;
+      text-align: center;
+      }
+
+    .service ul {
+      display: flex;
+      flex-direction: row;
+      }
+
+    #products {
+      flex-direction: column;
+      margin-bottom: 0;
+    }
+
+    .product {
+      max-width: 100%;
+      margin: 0;
+    }
+
+    .product p {
+      font-size: 0.77rem;
+      padding-bottom: 4rem;
+    }
+
+    footer {
+      justify-content: center;
+    }
+
+    footer span {
+      display: none;
+    }
+
+
+
+}
