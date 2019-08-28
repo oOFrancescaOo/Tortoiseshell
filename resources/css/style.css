@@ -85,33 +85,68 @@ main {
 }
 
 section {
-
+  padding-top: 3rem;
   }
 
 #services {
-
+  max-height: 8rem;
 }
 
 .service {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
 
+.service ul:first-child img {
+  width: 3.5rem;
   }
 
-p {
+.service ul img {
+  max-width: 5rem;
+  align-self: flex-start;
+}
 
+.service ul {
+  width: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: auto 3rem;
+}
+
+.service p {
+  text-align: center;
+  align-self: flex-end;
   }
 
 #products {
-
+  margin-bottom: 5rem;
 }
 
-#philosophy {
-
+#products h2 {
+  background-color: cadetblue;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size 1rem;
+  width: 10rem;
+  padding: 0.5rem 1.25rem;
+  margin-bottom: 1rem;
 }
 
-#appointment {
-
+#products div {
+  max-width: 35%;
+  margin-right: 5%;
 }
 
 footer {
+  margin: 4rem;
+  background-color: azure;
+  }
 
+footer img {
+  height: 1.5rem;
+  margin-right: 1rem;
   }
