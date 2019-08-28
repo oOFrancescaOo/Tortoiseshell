@@ -8,7 +8,6 @@ html {
   display: flex;
 }
 
-
 header {
   background-image: url("../glasses-bg.png");
   background-repeat: no-repeat;
@@ -42,7 +41,7 @@ nav {
   justify-content: space-between;
 }
 
-ul {
+nav ul {
   margin-left: 2rem;
 }
 
@@ -58,12 +57,13 @@ a {
 .mobile {
   display: none;
   }
+
 #pos-slogan {
   justify-content: flex-end;
 }
 
 #slogan {
-  margin-top: 10rem;
+  margin-top: 14rem;
   margin-right: -2rem;
   padding: 1.5rem 5rem;
   background-color: white;
@@ -76,20 +76,13 @@ h1 {
   font-weight: bold;
 }
 
-h2 {
-
-}
-
-main {
-
-}
 
 section {
   padding-top: 3rem;
   }
 
 #services {
-  max-height: 8rem;
+  height: 11rem;
 }
 
 .service {
@@ -142,11 +135,56 @@ section {
 }
 
 footer {
-  margin: 4rem;
+  padding: 4rem 0;
   background-color: azure;
   }
 
 footer img {
   height: 1.5rem;
   margin-right: 1rem;
+  }
+
+/* TABLETS ----------- */
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (max-width : 1024px) {
+
+  header {
+    height: 22rem;
+    padding-top: 0;
+    }
+
+  .box {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  nav {
+    position: fixed;
+    width: 100%;
+  }
+
+  #slogan {
+    margin-top: 8rem;
+    margin-right: 2rem;
+    padding: 0.75rem 4rem;
+  }
+
+  h1 {
+    font-size: 1.33rem;
+  }
+
+  #products {
+      justify-content: center;
+  }
+
+  #products h2 {
+    width: auto; 
+  }
+}
+
+
+/* MOBILE ----------- */
+
+  @media only screen and (max-width : 320px) {
+  /* Styles */
   }
